@@ -1,0 +1,39 @@
+[0.578s] Invoking command in '/home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3': PYTHONPATH=/home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/exp3 build --build-base /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build install --record /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/install.log --single-version-externally-managed install_data
+[0.700s] /home/akshaj/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.700s]   warnings.warn(msg)
+[0.770s] running egg_info
+[0.781s] creating build/exp3/exp3.egg-info
+[0.781s] writing build/exp3/exp3.egg-info/PKG-INFO
+[0.781s] writing dependency_links to build/exp3/exp3.egg-info/dependency_links.txt
+[0.782s] writing entry points to build/exp3/exp3.egg-info/entry_points.txt
+[0.782s] writing requirements to build/exp3/exp3.egg-info/requires.txt
+[0.782s] writing top-level names to build/exp3/exp3.egg-info/top_level.txt
+[0.863s] writing manifest file 'build/exp3/exp3.egg-info/SOURCES.txt'
+[0.886s] reading manifest file 'build/exp3/exp3.egg-info/SOURCES.txt'
+[0.886s] writing manifest file 'build/exp3/exp3.egg-info/SOURCES.txt'
+[0.886s] running build
+[0.886s] running build_py
+[0.886s] creating /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build/lib/exp3
+[0.887s] copying exp3/publisher.py -> /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build/lib/exp3
+[0.887s] copying exp3/__init__.py -> /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build/lib/exp3
+[0.887s] copying exp3/subscriber.py -> /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build/lib/exp3
+[0.887s] running install
+[0.890s] running install_lib
+[0.902s] creating /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages/exp3
+[0.902s] copying /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build/lib/exp3/publisher.py -> /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages/exp3
+[0.902s] copying /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build/lib/exp3/__init__.py -> /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages/exp3
+[0.902s] copying /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build/lib/exp3/subscriber.py -> /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages/exp3
+[0.902s] byte-compiling /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages/exp3/publisher.py to publisher.cpython-38.pyc
+[0.903s] byte-compiling /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages/exp3/__init__.py to __init__.cpython-38.pyc
+[0.903s] byte-compiling /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages/exp3/subscriber.py to subscriber.cpython-38.pyc
+[0.903s] running install_data
+[0.903s] creating /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/share/ament_index/resource_index/packages
+[0.903s] copying resource/exp3 -> /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/share/ament_index/resource_index/packages
+[0.904s] copying package.xml -> /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/share/exp3
+[0.904s] running install_egg_info
+[0.916s] Copying build/exp3/exp3.egg-info to /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages/exp3-0.0.0-py3.8.egg-info
+[0.917s] running install_scripts
+[0.950s] Installing publisher script to /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/exp3
+[0.950s] Installing subscriber script to /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/exp3
+[0.951s] writing list of installed files to '/home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/install.log'
+[0.969s] Invoked command in '/home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3' returned '0': PYTHONPATH=/home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/install/exp3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/exp3 build --build-base /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/build install --record /home/akshaj/Downloads/ros2_ws_AKSHAJ/ros2_ws_Akshaj/src/exp3/build/exp3/install.log --single-version-externally-managed install_data

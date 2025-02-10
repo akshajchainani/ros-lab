@@ -1,0 +1,4 @@
+[console_scripts]
+draw_circle = my_package.draw_circle:main
+turtle_controller = my_package.turtle_controller:main
+
