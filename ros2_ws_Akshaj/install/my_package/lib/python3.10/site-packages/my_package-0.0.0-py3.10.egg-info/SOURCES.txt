@@ -10,7 +10,7 @@ setup.py
 ../../build/my_package/my_package.egg-info/zip-safe
 my_package/__init__.py
 my_package/draw_circle.py
-my_package/task.py
+my_package/turtle_controller.py
 resource/my_package
 test/test_copyright.py
 test/test_flake8.py

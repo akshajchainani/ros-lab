@@ -1,0 +1,4 @@
+[console_scripts]
+custom_client = custom_service_test.custom_client:main
+custom_service = custom_service_test.custom_service:main
+

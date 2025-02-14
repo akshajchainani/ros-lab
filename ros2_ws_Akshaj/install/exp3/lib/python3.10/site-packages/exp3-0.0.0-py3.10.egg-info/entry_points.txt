@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = exp3.publisher:main
+subscriber = exp3.subscriber:main
+

@@ -1,0 +1,41 @@
+[1.198s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/exp3': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/exp3 build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/install.log --single-version-externally-managed install_data
+[1.392s] running egg_info
+[1.392s] creating ../build/exp3/exp3.egg-info
+[1.392s] writing ../build/exp3/exp3.egg-info/PKG-INFO
+[1.393s] writing dependency_links to ../build/exp3/exp3.egg-info/dependency_links.txt
+[1.393s] writing entry points to ../build/exp3/exp3.egg-info/entry_points.txt
+[1.393s] writing requirements to ../build/exp3/exp3.egg-info/requires.txt
+[1.393s] writing top-level names to ../build/exp3/exp3.egg-info/top_level.txt
+[1.393s] writing manifest file '../build/exp3/exp3.egg-info/SOURCES.txt'
+[1.394s] reading manifest file '../build/exp3/exp3.egg-info/SOURCES.txt'
+[1.396s] writing manifest file '../build/exp3/exp3.egg-info/SOURCES.txt'
+[1.396s] running build
+[1.396s] running build_py
+[1.396s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build
+[1.396s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build/lib
+[1.396s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build/lib/exp3
+[1.396s] copying exp3/publisher.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build/lib/exp3
+[1.397s] copying exp3/__init__.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build/lib/exp3
+[1.397s] copying exp3/subscriber.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build/lib/exp3
+[1.397s] running install
+[1.397s] running install_lib
+[1.398s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages/exp3
+[1.398s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build/lib/exp3/publisher.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages/exp3
+[1.398s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build/lib/exp3/__init__.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages/exp3
+[1.398s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build/lib/exp3/subscriber.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages/exp3
+[1.398s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages/exp3/publisher.py to publisher.cpython-310.pyc
+[1.399s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages/exp3/__init__.py to __init__.cpython-310.pyc
+[1.399s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages/exp3/subscriber.py to subscriber.cpython-310.pyc
+[1.399s] running install_data
+[1.399s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/share/ament_index
+[1.399s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/share/ament_index/resource_index
+[1.399s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/share/ament_index/resource_index/packages
+[1.399s] copying resource/exp3 -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/share/ament_index/resource_index/packages
+[1.400s] copying package.xml -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/share/exp3
+[1.400s] running install_egg_info
+[1.401s] Copying ../build/exp3/exp3.egg-info to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages/exp3-0.0.0-py3.10.egg-info
+[1.402s] running install_scripts
+[1.420s] Installing publisher script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/exp3
+[1.420s] Installing subscriber script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/exp3
+[1.421s] writing list of installed files to '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/install.log'
+[1.462s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/exp3' returned '0': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/exp3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/exp3 build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/exp3/install.log --single-version-externally-managed install_data

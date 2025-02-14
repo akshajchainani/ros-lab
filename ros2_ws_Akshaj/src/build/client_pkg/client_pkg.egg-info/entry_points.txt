@@ -1,0 +1,3 @@
+[console_scripts]
+service_client = client_pkg.service_client:main
+

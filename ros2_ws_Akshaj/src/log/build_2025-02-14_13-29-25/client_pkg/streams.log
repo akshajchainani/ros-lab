@@ -1,0 +1,39 @@
+[1.203s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_ws_exp4/src/client_pkg': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/client_pkg build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/install.log --single-version-externally-managed install_data
+[1.403s] running egg_info
+[1.403s] creating ../../../build/client_pkg/client_pkg.egg-info
+[1.404s] writing ../../../build/client_pkg/client_pkg.egg-info/PKG-INFO
+[1.404s] writing dependency_links to ../../../build/client_pkg/client_pkg.egg-info/dependency_links.txt
+[1.404s] writing entry points to ../../../build/client_pkg/client_pkg.egg-info/entry_points.txt
+[1.404s] writing requirements to ../../../build/client_pkg/client_pkg.egg-info/requires.txt
+[1.404s] writing top-level names to ../../../build/client_pkg/client_pkg.egg-info/top_level.txt
+[1.404s] writing manifest file '../../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+[1.406s] reading manifest file '../../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+[1.406s] adding license file 'LICENSE'
+[1.406s] writing manifest file '../../../build/client_pkg/client_pkg.egg-info/SOURCES.txt'
+[1.406s] running build
+[1.406s] running build_py
+[1.406s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build
+[1.406s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build/lib
+[1.407s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build/lib/client_pkg
+[1.407s] copying client_pkg/__init__.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build/lib/client_pkg
+[1.407s] copying client_pkg/service_client.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build/lib/client_pkg
+[1.407s] running install
+[1.407s] running install_lib
+[1.408s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/python3.10/site-packages/client_pkg
+[1.408s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build/lib/client_pkg/__init__.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/python3.10/site-packages/client_pkg
+[1.408s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build/lib/client_pkg/service_client.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/python3.10/site-packages/client_pkg
+[1.408s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/python3.10/site-packages/client_pkg/__init__.py to __init__.cpython-310.pyc
+[1.409s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/python3.10/site-packages/client_pkg/service_client.py to service_client.cpython-310.pyc
+[1.409s] running install_data
+[1.409s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/share/ament_index
+[1.409s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/share/ament_index/resource_index
+[1.409s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/share/ament_index/resource_index/packages
+[1.409s] copying resource/client_pkg -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/share/ament_index/resource_index/packages
+[1.409s] copying package.xml -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/share/client_pkg
+[1.409s] copying launch/call_client.launch.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/share/client_pkg
+[1.409s] running install_egg_info
+[1.411s] Copying ../../../build/client_pkg/client_pkg.egg-info to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/python3.10/site-packages/client_pkg-0.0.0-py3.10.egg-info
+[1.412s] running install_scripts
+[1.431s] Installing service_client script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/client_pkg
+[1.432s] writing list of installed files to '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/install.log'
+[1.478s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_ws_exp4/src/client_pkg' returned '0': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/install/client_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/client_pkg build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/build/client_pkg/install.log --single-version-externally-managed install_data
