@@ -4,6 +4,3 @@ experiment_interfaces.egg-info/PKG-INFO
 experiment_interfaces.egg-info/SOURCES.txt
 experiment_interfaces.egg-info/dependency_links.txt
 experiment_interfaces.egg-info/top_level.txt
-experiment_interfaces/msg/__init__.py
-experiment_interfaces/msg/_birthday.py
-experiment_interfaces/msg/_num.py

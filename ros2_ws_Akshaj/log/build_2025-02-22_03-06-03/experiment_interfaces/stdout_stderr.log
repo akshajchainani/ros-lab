@@ -1,9 +1,0 @@
-[31mCMake Error at CMakeLists.txt:8:
-  Parse error.  Expected "(", got newline with text "
-
-  ".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles/CMakeOutput.log".
-gmake: *** [Makefile:747: cmake_check_build_system] Error 1
