@@ -5,9 +5,6 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/experiment_interfaces/msg/__init__.py"
   "../rosidl_generator_py/experiment_interfaces/msg/_num.py"
   "../rosidl_generator_py/experiment_interfaces/msg/_num_s.c"
-  "../rosidl_generator_py/experiment_interfaces/srv/__init__.py"
-  "../rosidl_generator_py/experiment_interfaces/srv/_add_threeints.py"
-  "../rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c"
   "CMakeFiles/experiment_interfaces__py"
 )
 

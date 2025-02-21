@@ -83,30 +83,14 @@ CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/msg/_num_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_generator_py/experiment_interfaces/msg/_num_s.c -o CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/msg/_num_s.c.s
 
-CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o: CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/flags.make
-CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o: rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c
-CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o: CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o -MF CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o.d -o CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o -c /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c
-
-CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c > CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.i
-
-CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c -o CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.s
-
 # Object files for target experiment_interfaces__rosidl_generator_py
 experiment_interfaces__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/msg/_num_s.c.o" \
-"CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o"
+"CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/msg/_num_s.c.o"
 
 # External object files for target experiment_interfaces__rosidl_generator_py
 experiment_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so: CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/msg/_num_s.c.o
-rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so: CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c.o
 rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so: CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/build.make
 rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so: libexperiment_interfaces__rosidl_typesupport_c.so
@@ -124,7 +108,7 @@ rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_gener
 rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so: CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

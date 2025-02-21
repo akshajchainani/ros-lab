@@ -83,7 +83,6 @@ rosidl_generator_c/experiment_interfaces/msg/num.h: /opt/ros/humble/share/rosidl
 rosidl_generator_c/experiment_interfaces/msg/num.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/experiment_interfaces/msg/num.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/experiment_interfaces/msg/num.h: rosidl_adapter/experiment_interfaces/msg/Num.idl
-rosidl_generator_c/experiment_interfaces/msg/num.h: rosidl_adapter/experiment_interfaces/srv/AddThreeints.idl
 rosidl_generator_c/experiment_interfaces/msg/num.h: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_c/experiment_interfaces/msg/num.h: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_c/experiment_interfaces/msg/num.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -156,23 +155,8 @@ rosidl_generator_c/experiment_interfaces/msg/detail/num__struct.h: rosidl_genera
 rosidl_generator_c/experiment_interfaces/msg/detail/num__type_support.h: rosidl_generator_c/experiment_interfaces/msg/num.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/experiment_interfaces/msg/detail/num__type_support.h
 
-rosidl_generator_c/experiment_interfaces/srv/add_threeints.h: rosidl_generator_c/experiment_interfaces/msg/num.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/experiment_interfaces/srv/add_threeints.h
-
-rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.h: rosidl_generator_c/experiment_interfaces/msg/num.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.h
-
-rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__struct.h: rosidl_generator_c/experiment_interfaces/msg/num.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__struct.h
-
-rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__type_support.h: rosidl_generator_c/experiment_interfaces/msg/num.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__type_support.h
-
 rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c: rosidl_generator_c/experiment_interfaces/msg/num.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c
-
-rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c: rosidl_generator_c/experiment_interfaces/msg/num.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c
 
 CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c.o: CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c.o: rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c
@@ -188,30 +172,14 @@ CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/expe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c -o CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c.s
 
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o: CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/flags.make
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o: rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o: CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o -MF CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o.d -o CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o -c /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c
-
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c > CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.i
-
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c -o CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.s
-
 # Object files for target experiment_interfaces__rosidl_generator_c
 experiment_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c.o" \
-"CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o"
+"CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c.o"
 
 # External object files for target experiment_interfaces__rosidl_generator_c
 experiment_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libexperiment_interfaces__rosidl_generator_c.so: CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/msg/detail/num__functions.c.o
-libexperiment_interfaces__rosidl_generator_c.so: CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c.o
 libexperiment_interfaces__rosidl_generator_c.so: CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/build.make
 libexperiment_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 libexperiment_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
@@ -219,7 +187,7 @@ libexperiment_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_
 libexperiment_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libexperiment_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libexperiment_interfaces__rosidl_generator_c.so: CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libexperiment_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libexperiment_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,11 +203,6 @@ CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generato
 CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/experiment_interfaces/msg/detail/num__struct.h
 CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/experiment_interfaces/msg/detail/num__type_support.h
 CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/experiment_interfaces/msg/num.h
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/experiment_interfaces/srv/add_threeints.h
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.c
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__functions.h
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__struct.h
-CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/experiment_interfaces/srv/detail/add_threeints__type_support.h
 	cd /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/experiment_interfaces /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/experiment_interfaces /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/experiment_interfaces__rosidl_generator_c.dir/depend
 

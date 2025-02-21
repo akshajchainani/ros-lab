@@ -70,11 +70,8 @@ experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator
 experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_c.c
 experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/msg/_num.py
-experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/srv/_add_threeints.py
 experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/msg/__init__.py
-experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/srv/__init__.py
 experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/msg/_num_s.c
-experiment_interfaces__py/CMakeFiles/experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c
 
 rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -90,7 +87,6 @@ rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typ
 rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/experiment_interfaces/msg/Num.idl
-rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/experiment_interfaces/srv/AddThreeints.idl
 rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -163,20 +159,11 @@ rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typ
 rosidl_generator_py/experiment_interfaces/msg/_num.py: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/experiment_interfaces/msg/_num.py
 
-rosidl_generator_py/experiment_interfaces/srv/_add_threeints.py: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/experiment_interfaces/srv/_add_threeints.py
-
 rosidl_generator_py/experiment_interfaces/msg/__init__.py: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/experiment_interfaces/msg/__init__.py
 
-rosidl_generator_py/experiment_interfaces/srv/__init__.py: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/experiment_interfaces/srv/__init__.py
-
 rosidl_generator_py/experiment_interfaces/msg/_num_s.c: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/experiment_interfaces/msg/_num_s.c
-
-rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c
 
 experiment_interfaces__py: experiment_interfaces__py/CMakeFiles/experiment_interfaces__py
 experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/_experiment_interfaces_s.ep.rosidl_typesupport_c.c
@@ -185,9 +172,6 @@ experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/_experiment
 experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/msg/__init__.py
 experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/msg/_num.py
 experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/msg/_num_s.c
-experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/srv/__init__.py
-experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/srv/_add_threeints.py
-experiment_interfaces__py: rosidl_generator_py/experiment_interfaces/srv/_add_threeints_s.c
 experiment_interfaces__py: experiment_interfaces__py/CMakeFiles/experiment_interfaces__py.dir/build.make
 .PHONY : experiment_interfaces__py
 

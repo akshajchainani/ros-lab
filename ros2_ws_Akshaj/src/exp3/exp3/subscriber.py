@@ -16,7 +16,10 @@ class MinimalSubscriber(Node):
         self.subscription
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%d"' % msg.num)  # CHANGE
+        try:
+            self.get_logger().info(f'I heard: "{msg.num}"')
+        except Exception as e:
+            self.get_logger().error(f"Callback error: {str(e)}")
 
 
 def main(args=None):
