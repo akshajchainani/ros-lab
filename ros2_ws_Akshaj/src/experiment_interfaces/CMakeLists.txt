@@ -13,7 +13,7 @@ find_package(rosidl_default_runtime REQUIRED)  # Added for runtime dependencies
 find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Num.msg"
+  "msg/Birthday.msg"
   DEPENDENCIES geometry_msgs  # Remove if Birthday.msg doesn't use geometry_msgs
 )
 

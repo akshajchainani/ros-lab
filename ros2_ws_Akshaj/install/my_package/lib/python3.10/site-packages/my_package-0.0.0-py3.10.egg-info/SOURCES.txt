@@ -11,6 +11,7 @@ setup.py
 my_package/__init__.py
 my_package/draw_circle.py
 my_package/turtle_controller.py
+my_package/turtle_controller2.py
 resource/my_package
 test/test_copyright.py
 test/test_flake8.py

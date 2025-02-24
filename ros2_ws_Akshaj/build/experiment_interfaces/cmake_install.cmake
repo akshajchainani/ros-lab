@@ -356,11 +356,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/experiment_interfaces/msg" TYPE FILE FILES "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_adapter/experiment_interfaces/msg/Num.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/experiment_interfaces/msg" TYPE FILE FILES "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/rosidl_adapter/experiment_interfaces/msg/Birthday.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/experiment_interfaces/msg" TYPE FILE FILES "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/experiment_interfaces/msg/Num.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/experiment_interfaces/msg" TYPE FILE FILES "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/experiment_interfaces/msg/Birthday.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

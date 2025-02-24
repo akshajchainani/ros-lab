@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000739] (client_pkg) JobQueued: {'identifier': 'client_pkg', 'dependencies': OrderedDict()}
+[0.000993] (custom_service_test) JobQueued: {'identifier': 'custom_service_test', 'dependencies': OrderedDict()}
+[0.001020] (exp3) JobQueued: {'identifier': 'exp3', 'dependencies': OrderedDict()}
+[0.001043] (experiment_interfaces) JobQueued: {'identifier': 'experiment_interfaces', 'dependencies': OrderedDict()}
+[0.001062] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001082] (new_code_py) JobQueued: {'identifier': 'new_code_py', 'dependencies': OrderedDict()}
+[0.001102] (client_pkg) JobStarted: {'identifier': 'client_pkg'}
+[0.017363] (custom_service_test) JobStarted: {'identifier': 'custom_service_test'}
+[0.023277] (exp3) JobStarted: {'identifier': 'exp3'}
+[0.030559] (experiment_interfaces) JobStarted: {'identifier': 'experiment_interfaces'}
+[0.034840] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.040658] (new_code_py) JobStarted: {'identifier': 'new_code_py'}
+[0.099606] (-) TimerEvent: {}
+[0.200024] (-) TimerEvent: {}
+[0.300290] (-) TimerEvent: {}
+[0.400638] (-) TimerEvent: {}
+[0.501001] (-) TimerEvent: {}
+[0.601388] (-) TimerEvent: {}
+[0.701813] (-) TimerEvent: {}
+[0.802319] (-) TimerEvent: {}
+[0.902673] (-) TimerEvent: {}
+[1.003029] (-) TimerEvent: {}
+[1.103482] (-) TimerEvent: {}
+[1.130516] (experiment_interfaces) JobProgress: {'identifier': 'experiment_interfaces', 'progress': 'cmake'}
+[1.131552] (experiment_interfaces) JobProgress: {'identifier': 'experiment_interfaces', 'progress': 'build'}
+[1.132721] (experiment_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshaj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/akshaj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7ed2ce44674c8ef82972cc9367bc3773'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akshaj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshaj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/bin:/opt/ros/humble/bin:/home/akshaj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshaj-HP-Pavilion-Gaming-Laptop-15-ec2xxx:@/tmp/.ICE-unix/2389,unix/akshaj-HP-Pavilion-Gaming-Laptop-15-ec2xxx:/tmp/.ICE-unix/2389'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5f26291_64aa_4e4e_b01b_320ead2c9a2b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NMG22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.172'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '16'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/akshaj/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7ed2ce44674c8ef82972cc9367bc3773'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/akshaj/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.203604] (-) TimerEvent: {}
+[1.304030] (-) TimerEvent: {}
+[1.404506] (-) TimerEvent: {}
+[1.485966] (experiment_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.486973] (experiment_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.487082] (experiment_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.487179] (experiment_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.487377] (experiment_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.487656] (experiment_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_runtime: 1.2.0 (/opt/ros/humble/share/rosidl_default_runtime/cmake)\n'}
+[1.487934] (experiment_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.489408] (new_code_py) JobProgress: {'identifier': 'new_code_py', 'progress': 'cmake'}
+[1.490473] (new_code_py) JobProgress: {'identifier': 'new_code_py', 'progress': 'build'}
+[1.490966] (new_code_py) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py', '--', '-j12', '-l12'], 'cwd': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'akshaj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/akshaj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7ed2ce44674c8ef82972cc9367bc3773'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akshaj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'akshaj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/bin:/opt/ros/humble/bin:/home/akshaj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/akshaj-HP-Pavilion-Gaming-Laptop-15-ec2xxx:@/tmp/.ICE-unix/2389,unix/akshaj-HP-Pavilion-Gaming-Laptop-15-ec2xxx:/tmp/.ICE-unix/2389'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5f26291_64aa_4e4e_b01b_320ead2c9a2b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NMG22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.172'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '16'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/akshaj/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7ed2ce44674c8ef82972cc9367bc3773'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/akshaj/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.504903] (-) TimerEvent: {}
+[1.549448] (experiment_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[1.549841] (experiment_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/Dob.msg' doesn't exist\n"}
+[1.549986] (experiment_interfaces) StderrLine: {'line': b'  relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[1.550113] (experiment_interfaces) StderrLine: {'line': b"  '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/experiment_interfaces'\n"}
+[1.550222] (experiment_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.550472] (experiment_interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[1.550597] (experiment_interfaces) StderrLine: {'line': b'\n'}
+[1.550714] (experiment_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.550825] (experiment_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.551028] (experiment_interfaces) StdoutLine: {'line': b'See also "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.560101] (experiment_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:747: cmake_check_build_system] Error 1\n'}
+[1.563845] (experiment_interfaces) CommandEnded: {'returncode': 2}
+[1.572561] (new_code_py) StdoutLine: {'line': b'[  3%] Built target main_node_interfaces__cpp\n'}
+[1.581846] (new_code_py) StdoutLine: {'line': b'[ 12%] Built target main_node_interfaces__rosidl_generator_c\n'}
+[1.602251] (new_code_py) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_new_code_py\n'}
+[1.604911] (experiment_interfaces) JobEnded: {'identifier': 'experiment_interfaces', 'rc': 2}
+[1.605436] (-) TimerEvent: {}
+[1.629868] (new_code_py) StdoutLine: {'line': b'[ 32%] Built target main_node_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.630169] (new_code_py) StdoutLine: {'line': b'[ 32%] Built target main_node_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.631195] (new_code_py) StdoutLine: {'line': b'[ 41%] Built target main_node_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.631490] (new_code_py) StdoutLine: {'line': b'[ 51%] Built target main_node_interfaces__rosidl_typesupport_cpp\n'}
+[1.631625] (new_code_py) StdoutLine: {'line': b'[ 61%] Built target main_node_interfaces__rosidl_typesupport_c\n'}
+[1.637690] (new_code_py) StdoutLine: {'line': b'[ 70%] Built target main_node_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.669106] (new_code_py) StdoutLine: {'line': b'[ 70%] Built target main_node_interfaces\n'}
+[1.705558] (new_code_py) StdoutLine: {'line': b'[ 74%] Built target main_node_interfaces__py\n'}
+[1.705862] (-) TimerEvent: {}
+[1.747978] (new_code_py) StdoutLine: {'line': b'[ 80%] Built target main_node_interfaces__rosidl_generator_py\n'}
+[1.785490] (new_code_py) StdoutLine: {'line': b'[ 87%] Built target new_code_py__rosidl_typesupport_c__pyext\n'}
+[1.788203] (new_code_py) StdoutLine: {'line': b'[ 93%] Built target new_code_py__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.789376] (new_code_py) StdoutLine: {'line': b'[100%] Built target new_code_py__rosidl_typesupport_introspection_c__pyext\n'}
+[1.806013] (-) TimerEvent: {}
+[1.906509] (-) TimerEvent: {}
+[1.978614] (new_code_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.979994] (new_code_py) StdoutLine: {'line': b'writing new_code_py.egg-info/PKG-INFO\n'}
+[1.980459] (new_code_py) StdoutLine: {'line': b'writing dependency_links to new_code_py.egg-info/dependency_links.txt\n'}
+[1.980796] (new_code_py) StdoutLine: {'line': b'writing top-level names to new_code_py.egg-info/top_level.txt\n'}
+[1.985819] (new_code_py) StdoutLine: {'line': b"reading manifest file 'new_code_py.egg-info/SOURCES.txt'\n"}
+[1.986664] (new_code_py) StdoutLine: {'line': b"writing manifest file 'new_code_py.egg-info/SOURCES.txt'\n"}
+[2.006621] (-) TimerEvent: {}
+[2.032154] (new_code_py) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_new_code_py_egg\n'}
+[2.050432] (new_code_py) JobEnded: {'identifier': 'new_code_py', 'rc': 'SIGINT'}
+[2.106736] (-) TimerEvent: {}
+[2.207167] (-) TimerEvent: {}
+[2.209306] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 'SIGINT'}
+[2.209769] (custom_service_test) JobEnded: {'identifier': 'custom_service_test', 'rc': 'SIGINT'}
+[2.210702] (client_pkg) JobEnded: {'identifier': 'client_pkg', 'rc': 'SIGINT'}
+[2.211445] (exp3) JobEnded: {'identifier': 'exp3', 'rc': 'SIGINT'}
+[2.222286] (-) EventReactorShutdown: {}

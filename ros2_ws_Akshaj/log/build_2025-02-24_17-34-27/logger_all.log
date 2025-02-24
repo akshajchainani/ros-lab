@@ -1,0 +1,501 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.179s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b5598369750>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b559836a5f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b559836a5f0>>)
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.398s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_service_test) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_service_test' with type 'ros.ament_python' and name 'custom_service_test'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/exp3) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/exp3' with type 'ros.ament_python' and name 'exp3'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_interfaces) by extension 'ros'
+[0.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/experiment_interfaces' with type 'ros.ament_cmake' and name 'experiment_interfaces'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/main_node_interfaces) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/new_package/main_node_interfaces' with type 'ros.ament_cmake' and name 'new_code_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extension 'ros'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_package/new_code_py/new_code_py) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/build) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/build) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/build) ignored
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/install) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/install) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/install) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/log) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/log) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/log) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ws_exp4/src/client_pkg) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_ws_exp4/src/client_pkg' with type 'ros.ament_python' and name 'client_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.473s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install
+[0.473s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/akshaj/ros2_ws/install
+[0.475s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/humble
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'client_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'client_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/client_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg', 'merge_install': False, 'path': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_ws_exp4/src/client_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'custom_service_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'custom_service_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test', 'merge_install': False, 'path': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/custom_service_test', 'symlink_install': False, 'test_result_base': None}
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'cmake_target' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'exp3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'exp3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/exp3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3', 'merge_install': False, 'path': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/exp3', 'symlink_install': False, 'test_result_base': None}
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'experiment_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'experiment_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces', 'merge_install': False, 'path': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/experiment_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.537s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package', 'merge_install': False, 'path': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'cmake_target' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'new_code_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.537s] DEBUG:colcon.colcon_core.verb:Building package 'new_code_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py', 'merge_install': False, 'path': '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/new_package/main_node_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.537s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.539s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_ws_exp4/src/client_pkg' with build type 'ament_python'
+[0.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('client_pkg', 'ament_prefix_path')
+[0.545s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/hook/ament_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/hook/ament_prefix_path.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/hook/ament_prefix_path.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.553s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/custom_service_test' with build type 'ament_python'
+[0.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_service_test', 'ament_prefix_path')
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/hook/ament_prefix_path.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/hook/ament_prefix_path.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/hook/ament_prefix_path.sh'
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.560s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/exp3' with build type 'ament_python'
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('exp3', 'ament_prefix_path')
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/hook/ament_prefix_path.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/hook/ament_prefix_path.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/hook/ament_prefix_path.sh'
+[0.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/experiment_interfaces' with build type 'ament_cmake'
+[0.567s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/experiment_interfaces'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.572s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/my_package' with build type 'ament_python'
+[0.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/new_package/main_node_interfaces' with build type 'ament_cmake'
+[0.579s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/new_package/main_node_interfaces'
+[0.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.906s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_ws_exp4/src/client_pkg'
+[0.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.225s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/custom_service_test'
+[1.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.540s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/exp3'
+[1.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg:/home/akshaj/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces -- -j12 -l12
+[1.877s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/my_package'
+[1.877s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.877s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg:/home/akshaj/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py -- -j12 -l12
+[2.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg:/home/akshaj/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces -- -j12 -l12
+[2.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg:/home/akshaj/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces
+[2.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(experiment_interfaces)
+[2.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg:/home/akshaj/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces' for CMake module files
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces' for CMake config files
+[2.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('experiment_interfaces', 'cmake_prefix_path')
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/cmake_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/cmake_prefix_path.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/cmake_prefix_path.sh'
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/lib'
+[2.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('experiment_interfaces', 'ld_library_path_lib')
+[2.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/ld_library_path_lib.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/ld_library_path_lib.dsv'
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/ld_library_path_lib.sh'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/bin'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/lib/pkgconfig/experiment_interfaces.pc'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/lib/python3.10/site-packages'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/bin'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.ps1'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.dsv'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.sh'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.bash'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.zsh'
+[2.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/colcon-core/packages/experiment_interfaces)
+[2.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(experiment_interfaces)
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces' for CMake module files
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces' for CMake config files
+[2.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('experiment_interfaces', 'cmake_prefix_path')
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/cmake_prefix_path.ps1'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/cmake_prefix_path.dsv'
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/cmake_prefix_path.sh'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/lib'
+[2.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('experiment_interfaces', 'ld_library_path_lib')
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/ld_library_path_lib.ps1'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/ld_library_path_lib.dsv'
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/hook/ld_library_path_lib.sh'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/bin'
+[2.204s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/lib/pkgconfig/experiment_interfaces.pc'
+[2.204s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/lib/python3.10/site-packages'
+[2.204s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/bin'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.ps1'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.dsv'
+[2.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.sh'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.bash'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/experiment_interfaces/package.zsh'
+[2.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/experiment_interfaces/share/colcon-core/packages/experiment_interfaces)
+[2.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg:/home/akshaj/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py -- -j12 -l12
+[2.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg:/home/akshaj/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py
+[2.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/custom_service_test': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_service_test build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/install.log --single-version-externally-managed install_data
+[2.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/my_package': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/my_package/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/my_package/install.log --single-version-externally-managed install_data
+[2.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_ws_exp4/src/client_pkg': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/client_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/client_pkg build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/client_pkg/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/client_pkg/install.log --single-version-externally-managed install_data
+[2.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/exp3': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/exp3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exp3 build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/exp3/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/exp3/install.log --single-version-externally-managed install_data
+[2.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_code_py)
+[2.512s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py' for CMake module files
+[2.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg:/home/akshaj/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/new_code_py
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py' for CMake config files
+[2.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_code_py', 'cmake_prefix_path')
+[2.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/cmake_prefix_path.ps1'
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/cmake_prefix_path.dsv'
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/cmake_prefix_path.sh'
+[2.517s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/lib'
+[2.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_code_py', 'ld_library_path_lib')
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/ld_library_path_lib.ps1'
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/ld_library_path_lib.dsv'
+[2.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/ld_library_path_lib.sh'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/bin'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/lib/pkgconfig/new_code_py.pc'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/lib/python3.10/site-packages'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/bin'
+[2.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.ps1'
+[2.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.dsv'
+[2.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.sh'
+[2.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.bash'
+[2.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.zsh'
+[2.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/colcon-core/packages/new_code_py)
+[2.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_code_py)
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py' for CMake module files
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py' for CMake config files
+[2.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_code_py', 'cmake_prefix_path')
+[2.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/cmake_prefix_path.ps1'
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/cmake_prefix_path.dsv'
+[2.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/cmake_prefix_path.sh'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/lib'
+[2.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_code_py', 'ld_library_path_lib')
+[2.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/ld_library_path_lib.ps1'
+[2.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/ld_library_path_lib.dsv'
+[2.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/hook/ld_library_path_lib.sh'
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/bin'
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/lib/pkgconfig/new_code_py.pc'
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/lib/python3.10/site-packages'
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/bin'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.ps1'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.dsv'
+[2.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.sh'
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.bash'
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/new_code_py/package.zsh'
+[2.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/new_code_py/share/colcon-core/packages/new_code_py)
+[2.864s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg' for CMake module files
+[2.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_ws_exp4/src/client_pkg' returned '0': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/client_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/client_pkg build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/client_pkg/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/client_pkg/install.log --single-version-externally-managed install_data
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg' for CMake config files
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/lib'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/bin'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/lib/pkgconfig/client_pkg.pc'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/lib/python3.10/site-packages'
+[2.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('client_pkg', 'pythonpath')
+[2.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/hook/pythonpath.ps1'
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/hook/pythonpath.dsv'
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/hook/pythonpath.sh'
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/bin'
+[2.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(client_pkg)
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/package.ps1'
+[2.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/package.dsv'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/package.sh'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/package.bash'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/client_pkg/package.zsh'
+[2.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/client_pkg/share/colcon-core/packages/client_pkg)
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package' for CMake module files
+[2.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/my_package' returned '0': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/my_package/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/my_package/install.log --single-version-externally-managed install_data
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package' for CMake config files
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/lib'
+[2.897s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/bin'
+[2.897s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/lib/pkgconfig/my_package.pc'
+[2.897s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/lib/python3.10/site-packages'
+[2.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[2.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/hook/pythonpath.ps1'
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/hook/pythonpath.dsv'
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/hook/pythonpath.sh'
+[2.899s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/bin'
+[2.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/package.ps1'
+[2.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/package.dsv'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/package.sh'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/package.bash'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/my_package/package.zsh'
+[2.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/my_package/share/colcon-core/packages/my_package)
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3' for CMake module files
+[2.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/exp3' returned '0': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/exp3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exp3 build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/exp3/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/exp3/install.log --single-version-externally-managed install_data
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3' for CMake config files
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/lib'
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/bin'
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/lib/pkgconfig/exp3.pc'
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/lib/python3.10/site-packages'
+[2.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('exp3', 'pythonpath')
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/hook/pythonpath.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/hook/pythonpath.dsv'
+[2.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/hook/pythonpath.sh'
+[2.907s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/bin'
+[2.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exp3)
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/package.ps1'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/package.dsv'
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/package.sh'
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/package.bash'
+[2.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/exp3/package.zsh'
+[2.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/exp3/share/colcon-core/packages/exp3)
+[2.912s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test' for CMake module files
+[2.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/custom_service_test' returned '0': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_service_test build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/install.log --single-version-externally-managed install_data
+[2.913s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test' for CMake config files
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/bin'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/pkgconfig/custom_service_test.pc'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages'
+[2.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_service_test', 'pythonpath')
+[2.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/hook/pythonpath.ps1'
+[2.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/hook/pythonpath.dsv'
+[2.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/hook/pythonpath.sh'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/bin'
+[2.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_service_test)
+[2.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/package.ps1'
+[2.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/package.dsv'
+[2.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/package.sh'
+[2.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/package.bash'
+[2.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test/package.zsh'
+[2.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/colcon-core/packages/custom_service_test)
+[2.921s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.921s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.921s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.921s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.931s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.931s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.931s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.945s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/local_setup.ps1'
+[2.946s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/_local_setup_util_ps1.py'
+[2.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/setup.ps1'
+[2.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/local_setup.sh'
+[2.950s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/_local_setup_util_sh.py'
+[2.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/setup.sh'
+[2.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/local_setup.bash'
+[2.953s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/setup.bash'
+[2.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/local_setup.zsh'
+[2.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/setup.zsh'
