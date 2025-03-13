@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'custom_service = custom_service_test.custom_service:main',
-            'custom_client = custom_service_test.custom_client:main'
+            'custom_client = custom_service_test.custom_client:main',
+            'turtle_server = custom_service_test.turtle_server:main',
+            'turtle_client = custom_service_test.turtle_client:main',
         ],
     },
 )

@@ -11,6 +11,8 @@ setup.py
 custom_service_test/__init__.py
 custom_service_test/custom_client.py
 custom_service_test/custom_service.py
+custom_service_test/turtle_client.py
+custom_service_test/turtle_server.py
 resource/custom_service_test
 test/test_copyright.py
 test/test_flake8.py

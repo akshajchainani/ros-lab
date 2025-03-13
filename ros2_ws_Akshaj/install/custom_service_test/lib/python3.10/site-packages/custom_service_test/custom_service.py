@@ -1,12 +1,12 @@
 import rclpy
 from rclpy.node import Node
-from experiment_interfaces.srv import AddThreeints
+from experiment_interfaces.srv import AddThreeInts
 
 class MinimalService(Node):
 
     def __init__ (self):
         super().__init__('minimal_service')
-        self.srv = self.create_service(AddThreeints,
+        self.srv = self.create_service(AddThreeInts,
                                        'add_three_ints',self.add_three_ints_callback)
         
     def add_three_ints_callback(self,request,response):

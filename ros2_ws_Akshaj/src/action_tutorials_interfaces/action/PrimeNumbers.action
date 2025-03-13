@@ -1,0 +1,5 @@
+int32 n  # Input: Number of primes to generate
+---
+int32[] primes  # Output: List of first n prime numbers
+---
+int32[] partial_result  # Feedback: Partially computed prime numbers

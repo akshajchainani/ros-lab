@@ -1,0 +1,9 @@
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/uninstall.dir
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/urdfbot_description_uninstall.dir
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/test.dir
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/edit_cache.dir
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/rebuild_cache.dir
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/list_install_components.dir
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/install.dir
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/install/local.dir
+/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description/CMakeFiles/install/strip.dir

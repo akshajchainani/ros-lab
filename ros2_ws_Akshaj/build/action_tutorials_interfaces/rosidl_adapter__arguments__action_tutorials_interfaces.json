@@ -1,0 +1,7 @@
+{
+  "package_name": "action_tutorials_interfaces",
+  "non_idl_tuples": [
+    "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/action_tutorials_interfaces:action/PrimeNumbers.action",
+    "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/action_tutorials_interfaces:action/Fibonacci.action"
+  ]
+}

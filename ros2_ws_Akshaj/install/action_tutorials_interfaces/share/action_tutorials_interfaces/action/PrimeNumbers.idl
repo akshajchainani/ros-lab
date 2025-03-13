@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_tutorials_interfaces/action/PrimeNumbers.action
+// generated code does not contain a copyright notice
+
+
+module action_tutorials_interfaces {
+  module action {
+    struct PrimeNumbers_Goal {
+      @verbatim (language="comment", text=
+        "Input: Number of primes to generate")
+      int32 n;
+    };
+    struct PrimeNumbers_Result {
+      @verbatim (language="comment", text=
+        "Output: List of first n prime numbers")
+      sequence<int32> primes;
+    };
+    struct PrimeNumbers_Feedback {
+      @verbatim (language="comment", text=
+        "Feedback: Partially computed prime numbers")
+      sequence<int32> partial_result;
+    };
+  };
+};

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/msg/_birthday_s.c.o"
-  "CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/msg/_birthday_s.c.o.d"
+  "CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_turtle_control_s.c.o"
+  "CMakeFiles/experiment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/experiment_interfaces/srv/_turtle_control_s.c.o.d"
   "rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.pdb"
   "rosidl_generator_py/experiment_interfaces/libexperiment_interfaces__rosidl_generator_py.so"
 )

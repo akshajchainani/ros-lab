@@ -1,0 +1,49 @@
+[3.978s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/custom_service_test': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_service_test build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/install.log --single-version-externally-managed install_data
+[4.758s] running egg_info
+[4.758s] creating ../../build/custom_service_test/custom_service_test.egg-info
+[4.786s] writing ../../build/custom_service_test/custom_service_test.egg-info/PKG-INFO
+[4.786s] writing dependency_links to ../../build/custom_service_test/custom_service_test.egg-info/dependency_links.txt
+[4.786s] writing entry points to ../../build/custom_service_test/custom_service_test.egg-info/entry_points.txt
+[4.786s] writing requirements to ../../build/custom_service_test/custom_service_test.egg-info/requires.txt
+[4.787s] writing top-level names to ../../build/custom_service_test/custom_service_test.egg-info/top_level.txt
+[4.787s] writing manifest file '../../build/custom_service_test/custom_service_test.egg-info/SOURCES.txt'
+[4.865s] reading manifest file '../../build/custom_service_test/custom_service_test.egg-info/SOURCES.txt'
+[4.866s] writing manifest file '../../build/custom_service_test/custom_service_test.egg-info/SOURCES.txt'
+[4.867s] running build
+[4.867s] running build_py
+[4.870s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build
+[4.870s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib
+[4.870s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test
+[4.870s] copying custom_service_test/custom_service.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test
+[4.871s] copying custom_service_test/turtle_server.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test
+[4.872s] copying custom_service_test/__init__.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test
+[4.872s] copying custom_service_test/turtle_client.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test
+[4.872s] copying custom_service_test/custom_client.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test
+[4.873s] running install
+[4.891s] running install_lib
+[4.940s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test
+[4.940s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test/custom_service.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test
+[4.940s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test/turtle_server.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test
+[4.940s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test/__init__.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test
+[4.941s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test/turtle_client.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test
+[4.941s] copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build/lib/custom_service_test/custom_client.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test
+[4.945s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test/custom_service.py to custom_service.cpython-310.pyc
+[4.945s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test/turtle_server.py to turtle_server.cpython-310.pyc
+[4.946s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test/__init__.py to __init__.cpython-310.pyc
+[4.946s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test/turtle_client.py to turtle_client.cpython-310.pyc
+[4.946s] byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test/custom_client.py to custom_client.cpython-310.pyc
+[4.946s] running install_data
+[4.947s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/ament_index
+[4.947s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/ament_index/resource_index
+[4.947s] creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/ament_index/resource_index/packages
+[4.947s] copying resource/custom_service_test -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/ament_index/resource_index/packages
+[4.947s] copying package.xml -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/share/custom_service_test
+[4.947s] running install_egg_info
+[4.978s] Copying ../../build/custom_service_test/custom_service_test.egg-info to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages/custom_service_test-0.0.0-py3.10.egg-info
+[4.980s] running install_scripts
+[5.101s] Installing custom_client script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/custom_service_test
+[5.101s] Installing custom_service script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/custom_service_test
+[5.102s] Installing turtle_client script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/custom_service_test
+[5.102s] Installing turtle_server script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/custom_service_test
+[5.103s] writing list of installed files to '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/install.log'
+[5.217s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/custom_service_test' returned '0': PYTHONPATH=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/custom_service_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_service_test build --build-base /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/build install --record /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/custom_service_test/install.log --single-version-externally-managed install_data

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/action_test/action_test.egg-info
+writing ../../build/action_test/action_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/action_test/action_test.egg-info/dependency_links.txt
+writing entry points to ../../build/action_test/action_test.egg-info/entry_points.txt
+writing requirements to ../../build/action_test/action_test.egg-info/requires.txt
+writing top-level names to ../../build/action_test/action_test.egg-info/top_level.txt
+writing manifest file '../../build/action_test/action_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/action_test/action_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/action_test/action_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build
+creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build/lib
+creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build/lib/action_test
+copying action_test/fibonacci_action_client.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build/lib/action_test
+copying action_test/__init__.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build/lib/action_test
+copying action_test/fibonacci_action_server.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build/lib/action_test
+running install
+running install_lib
+creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/python3.10/site-packages/action_test
+copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build/lib/action_test/fibonacci_action_client.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/python3.10/site-packages/action_test
+copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build/lib/action_test/__init__.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/python3.10/site-packages/action_test
+copying /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/build/lib/action_test/fibonacci_action_server.py -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/python3.10/site-packages/action_test
+byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/python3.10/site-packages/action_test/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/python3.10/site-packages/action_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/python3.10/site-packages/action_test/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+running install_data
+creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/share/ament_index
+creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/share/ament_index/resource_index
+creating /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/share/ament_index/resource_index/packages
+copying resource/action_test -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/share/action_test
+running install_egg_info
+Copying ../../build/action_test/action_test.egg-info to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/python3.10/site-packages/action_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fibonacci_action_client script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/action_test
+Installing fibonacci_action_server script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/action_test/lib/action_test
+writing list of installed files to '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_test/install.log'

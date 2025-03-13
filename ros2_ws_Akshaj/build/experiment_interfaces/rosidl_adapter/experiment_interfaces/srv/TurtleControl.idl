@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from experiment_interfaces/srv/TurtleControl.srv
+// generated code does not contain a copyright notice
+
+
+module experiment_interfaces {
+  module srv {
+    struct TurtleControl_Request {
+      float velocity;
+
+      float angle;
+    };
+    struct TurtleControl_Response {
+      string msg;
+    };
+  };
+};
