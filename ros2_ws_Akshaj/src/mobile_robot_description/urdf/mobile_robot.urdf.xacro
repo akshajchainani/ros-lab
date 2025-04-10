@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mobile_robot">
+
+  <!-- Define constants -->
+  <xacro:property name="PI" value="3.1415926535897931"/>
+  
+  <!-- Base dimensions -->
+  <xacro:property name="base_length" value="0.5"/>
+  <xacro:property name="base_width" value="0.3"/>
+  <xacro:property name="base_height" value="0.2"/>
+  
+  <!-- Wheel dimensions -->
+  <xacro:property name="wheel_radius" value="0.1"/>
+  <xacro:property name="wheel_width" value="0.05"/>
+  <xacro:property name="wheel_ygap" value="0.01"/>
+  
+  <!-- Materials -->
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="${base_length} ${base_width} ${base_height}"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${base_length} ${base_width} ${base_height}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="5.0"/>
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
+    </inertial>
+  </link>
+
+  <!-- Wheel Macro -->
+  <xacro:macro name="wheel" params="prefix x y z roll pitch yaw">
+    <link name="${prefix}_wheel">
+      <visual>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+        <material name="black"/>
+        <origin rpy="${PI/2} 0 0"/>
+      </visual>
+      <collision>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+        <origin rpy="${PI/2} 0 0"/>
+      </collision>
+      <inertial>
+        <mass value="0.5"/>
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+      </inertial>
+    </link>
+    
+    <joint name="${prefix}_wheel_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="${prefix}_wheel"/>
+      <origin xyz="${x} ${y} ${z}" rpy="${roll} ${pitch} ${yaw}"/>
+      <axis xyz="0 0 1"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- Create four wheels -->
+  <xacro:wheel prefix="front_left" 
+    x="${base_length/2 - wheel_radius}" 
+    y="${base_width/2 + wheel_ygap}" 
+    z="-base_height/2" 
+    roll="0" pitch="0" yaw="0"/>
+  
+  <xacro:wheel prefix="front_right" 
+    x="${base_length/2 - wheel_radius}" 
+    y="${-base_width/2 - wheel_ygap}" 
+    z="-base_height/2" 
+    roll="0" pitch="0" yaw="0"/>
+  
+  <xacro:wheel prefix="rear_left" 
+    x="${-base_length/2 + wheel_radius}" 
+    y="${base_width/2 + wheel_ygap}" 
+    z="-base_height/2" 
+    roll="0" pitch="0" yaw="0"/>
+  
+  <xacro:wheel prefix="rear_right" 
+    x="${-base_length/2 + wheel_radius}" 
+    y="${-base_width/2 - wheel_ygap}" 
+    z="-base_height/2" 
+    roll="0" pitch="0" yaw="0"/>
+</robot>

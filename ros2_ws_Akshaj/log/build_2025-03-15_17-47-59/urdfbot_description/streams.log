@@ -1,0 +1,26 @@
+[2.665s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description -- -j12 -l12
+[2.725s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description -- -j12 -l12
+[2.728s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description
+[2.741s] -- Install configuration: ""
+[2.742s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description//urdf
+[2.742s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description//urdf/urdfbot_simple.urdf
+[2.742s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description//launch
+[2.742s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description//launch/show.launch.xml
+[2.742s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description//rviz
+[2.743s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description//rviz/new.rviz
+[2.743s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/ament_index/resource_index/package_run_dependencies/urdfbot_description
+[2.744s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/ament_index/resource_index/parent_prefix_path/urdfbot_description
+[2.744s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.sh
+[2.744s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.dsv
+[2.744s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/environment/path.sh
+[2.744s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/environment/path.dsv
+[2.744s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/local_setup.bash
+[2.745s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/local_setup.sh
+[2.745s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/local_setup.zsh
+[2.745s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/local_setup.dsv
+[2.745s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/package.dsv
+[2.745s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/ament_index/resource_index/packages/urdfbot_description
+[2.745s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig.cmake
+[2.745s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig-version.cmake
+[2.745s] -- Up-to-date: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/urdfbot_description/share/urdfbot_description/package.xml
+[2.749s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description

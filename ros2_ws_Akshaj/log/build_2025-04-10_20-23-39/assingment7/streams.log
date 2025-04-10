@@ -1,0 +1,52 @@
+[0.344s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_urdf-main -DCMAKE_INSTALL_PREFIX=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7
+[1.805s] -- The C compiler identification is GNU 11.4.0
+[1.806s] -- The CXX compiler identification is GNU 11.4.0
+[1.806s] -- Detecting C compiler ABI info
+[1.806s] -- Detecting C compiler ABI info - done
+[1.806s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.806s] -- Detecting C compile features
+[1.806s] -- Detecting C compile features - done
+[1.806s] -- Detecting CXX compiler ABI info
+[1.807s] -- Detecting CXX compiler ABI info - done
+[1.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.807s] -- Detecting CXX compile features
+[1.807s] -- Detecting CXX compile features - done
+[1.807s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.807s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.807s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.807s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[1.807s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.807s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.808s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.808s] -- Configured cppcheck include dirs: 
+[1.808s] -- Configured cppcheck exclude dirs and/or files: 
+[1.808s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.808s] -- Configured cpplint exclude dirs and/or files: 
+[1.808s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.808s] -- Added test 'lint_cmake' to check CMake code style
+[1.808s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.809s] -- Added test 'uncrustify' to check C / C++ code style
+[1.809s] -- Configured uncrustify additional arguments: 
+[1.809s] -- Added test 'xmllint' to check XML markup files
+[1.809s] -- Configuring done
+[1.809s] -- Generating done
+[1.809s] -- Build files have been written to: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7
+[1.818s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_urdf-main -DCMAKE_INSTALL_PREFIX=/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7
+[1.820s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7 -- -j12 -l12
+[1.905s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7 -- -j12 -l12
+[1.945s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7
+[1.972s] -- Install configuration: ""
+[1.972s] -- Installing: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7/share/assingment7//urdf
+[1.973s] -- Installing: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7/share/assingment7//urdf/four_wheel.xacro
+[1.973s] -- Installing: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7/share/assingment7//urdf/robot.urdf.xacro
+[1.973s] -- Installing: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7/share/assingment7//urdf/four_dof.xacro
+[1.973s] -- Installing: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7/share/assingment7//urdf/inertial_macros.xacro
+[1.977s] -- Installing: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7/share/assingment7//launch
+[1.977s] -- Installing: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/assingment7/share/assingment7//launch/ass7.launch.xml
+[1.977s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.978s]   file INSTALL cannot find
+[1.978s]   "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/src/ros2_urdf-main/rviz":
+[1.978s]   No such file or directory.
+[1.978s] 
+[1.978s] [0m
+[1.979s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/assingment7

@@ -1,0 +1,80 @@
+[0.569s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_tutorials_interfaces -- -j12 -l12
+[2.534s] [35m[1mConsolidate compiler generated dependencies of target action_tutorials_interfaces__rosidl_generator_c[0m
+[2.535s] [  2%] Built target action_tutorials_interfaces__cpp
+[2.535s] [ 12%] Built target action_tutorials_interfaces__rosidl_generator_c
+[2.535s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.535s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.535s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.535s] [ 20%] Built target ament_cmake_python_copy_action_tutorials_interfaces
+[2.536s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.537s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.537s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.537s] running egg_info
+[2.538s] writing action_tutorials_interfaces.egg-info/PKG-INFO
+[2.539s] writing dependency_links to action_tutorials_interfaces.egg-info/dependency_links.txt
+[2.539s] writing top-level names to action_tutorials_interfaces.egg-info/top_level.txt
+[2.539s] [35m[1mConsolidate compiler generated dependencies of target action_tutorials_interfaces__rosidl_typesupport_cpp[0m
+[2.539s] reading manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[2.539s] [ 33%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o[0m
+[2.539s] [ 33%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/prime_numbers__type_support.cpp.o[0m
+[2.539s] [35m[1mConsolidate compiler generated dependencies of target action_tutorials_interfaces__rosidl_typesupport_c[0m
+[2.540s] [ 38%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o[0m
+[2.540s] [ 38%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/prime_numbers__type_support.cpp.o[0m
+[2.540s] [ 41%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so[0m
+[2.540s] [35m[1mConsolidate compiler generated dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.540s] [35m[1mConsolidate compiler generated dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c[0m
+[2.540s] [ 43%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/prime_numbers__type_support.cpp.o[0m
+[2.540s] [ 46%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[2.541s] [ 48%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/prime_numbers__type_support.c.o[0m
+[2.541s] [ 51%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[2.541s] [ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_c
+[2.542s] [35m[1mConsolidate compiler generated dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.542s] [ 53%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/prime_numbers__type_support.cpp.o[0m
+[2.542s] [ 56%] [32m[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.542s] [ 58%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[2.543s] [35m[1mConsolidate compiler generated dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.543s] [ 61%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/prime_numbers__type_support_c.cpp.o[0m
+[2.543s] [ 64%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[2.543s] [ 64%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c
+[2.543s] [ 66%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so[0m
+[2.543s] [ 66%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp
+[2.543s] [ 69%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.544s] Traceback (most recent call last):
+[2.544s]   File "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/action_tutorials_interfaces/ament_cmake_python/action_tutorials_interfaces/setup.py", line 4, in <module>
+[2.544s]     setup(
+[2.544s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[2.544s]     return distutils.core.setup(**attrs)
+[2.544s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[2.545s]     return run_commands(dist)
+[2.545s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[2.545s]     dist.run_commands()
+[2.545s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[2.545s]     self.run_command(cmd)
+[2.546s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[2.546s]     super().run_command(command)
+[2.546s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[2.546s]     cmd_obj.run()
+[2.546s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[2.547s]     self.find_sources()
+[2.547s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[2.547s]     mm.run()
+[2.547s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[2.547s]     self.prune_file_list()
+[2.547s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[2.547s]     super().prune_file_list()
+[2.547s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[2.547s]     base_dir = self.distribution.get_fullname()
+[2.548s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[2.548s]     return _distribution_fullname(self.get_name(), self.get_version())
+[2.548s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[2.548s]     canonicalize_version(version, strip_trailing_zero=False),
+[2.548s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[2.548s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_action_tutorials_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_action_tutorials_interfaces_egg] Error 1
+[2.549s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_action_tutorials_interfaces_egg.dir/all] Error 2
+[2.549s] gmake[1]: *** Waiting for unfinished jobs....
+[2.560s] [ 69%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c
+[2.562s] [ 71%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.645s] [ 71%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.653s] [ 74%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.716s] [ 74%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp
+[2.718s] gmake: *** [Makefile:146: all] Error 2

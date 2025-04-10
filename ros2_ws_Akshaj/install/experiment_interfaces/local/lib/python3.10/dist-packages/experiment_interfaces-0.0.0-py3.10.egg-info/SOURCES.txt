@@ -4,3 +4,5 @@ experiment_interfaces.egg-info/PKG-INFO
 experiment_interfaces.egg-info/SOURCES.txt
 experiment_interfaces.egg-info/dependency_links.txt
 experiment_interfaces.egg-info/top_level.txt
+experiment_interfaces/srv/__init__.py
+experiment_interfaces/srv/_turtle_control.py

@@ -1,0 +1,10 @@
+[1.768s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description -- -j12 -l12
+[1.815s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.088s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.162s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[2.163s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.276s] -- Added test 'lint_cmake' to check CMake code style
+[2.279s] -- Added test 'xmllint' to check XML markup files
+[2.281s] -- Configuring done
+[2.288s] -- Generating done
+[2.292s] -- Build files have been written to: /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/urdfbot_description

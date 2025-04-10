@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/prime_generator/prime_generator.egg-info/PKG-INFO
+writing dependency_links to ../../build/prime_generator/prime_generator.egg-info/dependency_links.txt
+writing entry points to ../../build/prime_generator/prime_generator.egg-info/entry_points.txt
+writing requirements to ../../build/prime_generator/prime_generator.egg-info/requires.txt
+writing top-level names to ../../build/prime_generator/prime_generator.egg-info/top_level.txt
+reading manifest file '../../build/prime_generator/prime_generator.egg-info/SOURCES.txt'
+writing manifest file '../../build/prime_generator/prime_generator.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/prime_generator/lib/python3.10/site-packages/prime_generator-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/prime_generator/prime_generator.egg-info to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/prime_generator/lib/python3.10/site-packages/prime_generator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing prime_client script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/prime_generator/lib/prime_generator
+Installing prime_server script to /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/install/prime_generator/lib/prime_generator
+writing list of installed files to '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/prime_generator/install.log'

@@ -1,0 +1,60 @@
+[1.629s] Invoking command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces -- -j12 -l12
+[2.497s] [35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_generator_c[0m
+[2.497s] [  3%] Built target experiment_interfaces__cpp
+[2.497s] [ 12%] Built target experiment_interfaces__rosidl_generator_c
+[2.497s] [35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.497s] [35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_cpp[0m
+[2.497s] [35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_c[0m
+[2.497s] [ 12%] Built target ament_cmake_python_copy_experiment_interfaces
+[2.498s] [35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_introspection_c[0m
+[2.498s] [35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.498s] [35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.498s] [ 22%] Built target experiment_interfaces__rosidl_typesupport_c
+[2.498s] [ 32%] Built target experiment_interfaces__rosidl_typesupport_cpp
+[2.498s] [ 41%] Built target experiment_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.498s] [ 51%] Built target experiment_interfaces__rosidl_typesupport_introspection_c
+[2.498s] [ 61%] Built target experiment_interfaces__rosidl_typesupport_introspection_cpp
+[2.498s] [ 70%] Built target experiment_interfaces__rosidl_typesupport_fastrtps_c
+[2.498s] [ 70%] Built target experiment_interfaces
+[2.498s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.499s] running egg_info
+[2.499s] writing experiment_interfaces.egg-info/PKG-INFO
+[2.499s] writing dependency_links to experiment_interfaces.egg-info/dependency_links.txt
+[2.499s] writing top-level names to experiment_interfaces.egg-info/top_level.txt
+[2.499s] reading manifest file 'experiment_interfaces.egg-info/SOURCES.txt'
+[2.499s] [ 74%] Built target experiment_interfaces__py
+[2.499s] Traceback (most recent call last):
+[2.499s]   File "/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces/ament_cmake_python/experiment_interfaces/setup.py", line 4, in <module>
+[2.499s]     setup(
+[2.500s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[2.500s]     return distutils.core.setup(**attrs)
+[2.500s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[2.500s]     return run_commands(dist)
+[2.500s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[2.500s]     dist.run_commands()
+[2.500s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[2.500s]     self.run_command(cmd)
+[2.500s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[2.500s]     super().run_command(command)
+[2.500s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[2.500s]     cmd_obj.run()
+[2.500s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[2.500s]     self.find_sources()
+[2.500s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[2.500s]     mm.run()
+[2.501s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[2.501s]     self.prune_file_list()
+[2.501s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[2.501s]     super().prune_file_list()
+[2.501s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[2.502s]     base_dir = self.distribution.get_fullname()
+[2.502s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[2.502s]     return _distribution_fullname(self.get_name(), self.get_version())
+[2.502s]   File "/home/akshaj/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[2.502s]     canonicalize_version(version, strip_trailing_zero=False),
+[2.502s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[2.503s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_experiment_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_experiment_interfaces_egg] Error 1
+[2.503s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_experiment_interfaces_egg.dir/all] Error 2
+[2.503s] gmake[1]: *** Waiting for unfinished jobs....
+[2.504s] gmake: *** [Makefile:146: all] Error 2
+[2.526s] Invoked command in '/home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akshaj/Desktop/ros-lab-exp/ros-lab/ros2_ws_Akshaj/build/experiment_interfaces -- -j12 -l12

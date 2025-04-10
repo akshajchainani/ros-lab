@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_generator_c[0m
+[  3%] Built target experiment_interfaces__cpp
+[ 12%] Built target experiment_interfaces__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_c[0m
+[ 12%] Built target ament_cmake_python_copy_experiment_interfaces
+[35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target experiment_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 22%] Built target experiment_interfaces__rosidl_typesupport_c
+[ 32%] Built target experiment_interfaces__rosidl_typesupport_cpp
+[ 41%] Built target experiment_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target experiment_interfaces__rosidl_typesupport_introspection_c
+[ 61%] Built target experiment_interfaces__rosidl_typesupport_introspection_cpp
+[ 70%] Built target experiment_interfaces__rosidl_typesupport_fastrtps_c
+[ 70%] Built target experiment_interfaces
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing experiment_interfaces.egg-info/PKG-INFO
+writing dependency_links to experiment_interfaces.egg-info/dependency_links.txt
+writing top-level names to experiment_interfaces.egg-info/top_level.txt
+reading manifest file 'experiment_interfaces.egg-info/SOURCES.txt'
+[ 74%] Built target experiment_interfaces__py
